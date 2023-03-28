@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_thrio (1.0.0):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_thrio (from `.symlinks/plugins/flutter_thrio/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_thrio:
+    :path: ".symlinks/plugins/flutter_thrio/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_thrio: bc1cb0ca72b350b42b60e208ff2a14c9906c9e1a
+
+PODFILE CHECKSUM: 83518fb41d2e189e4027eff4c8d63b26e21e49b1
+
+COCOAPODS: 1.11.3
