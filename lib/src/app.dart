@@ -5,7 +5,7 @@ import 'module.dart';
 
 void main() => runApp(const MainApp());
 void biz1() => runApp(const MainApp(entrypoint: 'biz1'));
-void bv_launch() => runApp(const MainApp(entrypoint: 'bv_launch'));
+// void bv_launch() => runApp(const MainApp(entrypoint: 'bv_launch'));
 
 class MainApp extends StatefulWidget {
   const MainApp({super.key, final String entrypoint = 'main'})
