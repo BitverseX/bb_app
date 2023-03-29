@@ -17,9 +17,9 @@ Future<void> biz1() async {
     Zone.current.handleUncaughtError(error, stack);
   });
 }
-// @pragma('vm:entry-point')
-// Future<void> bv_launch() async {
-//   runZonedGuarded(app.bv_launch, (final error, final stack) {
-//     Zone.current.handleUncaughtError(error, stack);
-//   });
-// }
+@pragma('vm:entry-point')
+Future<void> bb() async {
+  runZonedGuarded(app.bb, (final error, final stack) {
+    Zone.current.handleUncaughtError(error, stack);
+  });
+}

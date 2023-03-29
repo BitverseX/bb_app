@@ -6,6 +6,7 @@
 import 'package:flutter_thrio/flutter_thrio.dart';
 
 import 'flutter1/module.dart' as flutter1;
+import 'flutter2/module.dart' as flutter2;
 
 class Module with ThrioModule, ModuleParamScheme {
   @override
@@ -14,6 +15,7 @@ class Module with ThrioModule, ModuleParamScheme {
   @override
   void onModuleRegister(final ModuleContext moduleContext) {
     registerModule(flutter1.Module(), moduleContext);
+    registerModule(flutter2.Module(), moduleContext);
   }
 
   @override

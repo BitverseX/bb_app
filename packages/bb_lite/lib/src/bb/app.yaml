@@ -1,0 +1,12 @@
+author: foxsofter
+
+lineWidth: 100
+
+pageRoot: bb
+
+pages:
+  - bb_home:
+      - main
+
+language:
+

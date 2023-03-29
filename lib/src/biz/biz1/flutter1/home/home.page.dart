@@ -74,8 +74,12 @@ class _HomePageState extends State<HomePage>
   Widget build(final BuildContext context) {
     super.build(context);
     return Scaffold(
+      appBar: AppBar(),
       body: Center(
-        child: Text("flutter1"),
+        child: ElevatedButton(child: Text("GO TO bb_lite"),onPressed: ()async{
+          await ThrioNavigator.push(url: '/bb/bbHome/main');
+
+        },),
       ),
     );
   }

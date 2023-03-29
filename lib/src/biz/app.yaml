@@ -6,5 +6,7 @@ pages:
   - biz1:
       - flutter1:
           - home
+      - flutter2:
+          - home
 
 language:

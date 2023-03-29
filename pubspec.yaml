@@ -18,8 +18,8 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_thrio: ^3.14.7
-#  bitverse_lite:
-#      path: packages/bitverse_wallet_lite
+  bb_lite:
+      path: packages/bb_lite
   cupertino_icons: ^1.0.2
 dev_dependencies:
   flutter_test:
