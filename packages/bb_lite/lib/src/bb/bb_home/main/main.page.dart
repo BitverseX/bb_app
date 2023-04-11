@@ -1,6 +1,7 @@
 // Copyright (c) 2023 foxsofter.
 //
 
+import 'package:bb_ui/screen/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_thrio/flutter_thrio.dart';
@@ -21,10 +22,5 @@ class MainPage extends NavigatorStatefulPage {
 
 class _MainPageState extends State<MainPage> {
   @override
-  Widget build(final BuildContext context) =>Scaffold(
-    appBar: AppBar(),
-    body: Center(
-      child: Text("bb_lite"),
-    ),
-  );
+  Widget build(final BuildContext context) =>HomeScreen();
 }
